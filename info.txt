@@ -1,0 +1,16 @@
+npm init - to create package.json file
+
+npm install cypress - to install cypress
+
+npm install npx - to manage path we use npx 
+
+npx cypress open -- will open cypress test runner 
+
+// two way to run test cases - 
+1) test runner 
+2) command line 
+
+fixture - to test data storage 
+integration - to write test cases 
+plugins - to add other js libraries 
+support - commom function (utilities)

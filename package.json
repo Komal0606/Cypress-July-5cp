@@ -1,0 +1,23 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "local" : "npx cypress run --headed --config baseUrl=\"https://www.youtube.com\"", 
+    "canary" : "npx cypress run --headed -- browser chrome --config-file local-config.json",
+    "staging" : "npx cypress run -- headed -- browser chrome --config-file staging-config.json",
+    "production" : "npx cyress run -- headed -- browser chrome --config-file production-config.json",
+    "local1" : "npx cyress run -- headed -- browser chrome --config-file local-config.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.5.1",
+    "npx": "^10.2.2"
+  },
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8"
+  }
+}

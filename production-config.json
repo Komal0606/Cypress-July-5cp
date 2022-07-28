@@ -1,0 +1,4 @@
+{
+    "extends" : "./cypress.json",
+    "baseUrl" : "https://rahulshettyacademy.com/blog/index.php/2021/07/21/common-cypress-interview-questions/0/"
+}
